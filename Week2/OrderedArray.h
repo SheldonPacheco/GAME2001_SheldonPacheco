@@ -144,7 +144,6 @@ private:
 		temp = nullptr;
 
 		m_maxSize += m_growSize;
-
 		return true;
 	}
 private:

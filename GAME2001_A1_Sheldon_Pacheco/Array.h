@@ -92,7 +92,7 @@ private:
         delete[] m_array;
         m_array = temp;
         m_maxSize = newSize;
-
+        std::cout << "New array size " << m_maxSize << std::endl;
         return true;
     }
 
@@ -101,4 +101,5 @@ private:
     int m_maxSize;
     int m_growSize;
     int m_numElements;
+    std::string m_name;
 };
